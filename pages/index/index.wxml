@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="classifyContainer">
+    <button style="width:100%" type="primary" bindtap="takePhoto">拍照</button>
+    <text>识别结果：{{classifyResult}}，属于可回收垃圾</text>
+    <image class="preViewImage" wx:if="{{picSrc}}" mode="scaleToFill" src="{{picSrc}}"></image>
+  </view>
+  <view class="sharingContainer">
+    <text class="invatingInfo">感觉不错？和好友一起玩转垃圾分类吧!</text>
+    <button class="sharingBtn" bindtap="showSharingMenu" open-type="share">分享好友</button>
+  </view>
+</view>

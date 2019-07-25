@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-size: 30rpx;
+  padding: 30rpx;
+}
+
+.classifyContainer{
+  background-color: #ffffff;
+  margin-bottom: 40rpx;
+  padding: 10rpx 35rpx;
+  font-size: 25rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.preViewImage{
+  width: 90%;
+}
+
+.sharingContainer{
+  background-color: #ffffff;
+  padding: 10rpx 35rpx;
+  font-size: 25rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.invatingInfo{
+  width: 70%;
+  display: flex;
+}
+.sharingBtn{
+  font-size: 25rpx;
+  background-color: rgb(176, 109, 238);
+}
