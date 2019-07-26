@@ -94,7 +94,7 @@ Page({
       },
       fail: function (res) {
         wx.showToast({ title: '系统错误', icon: "none", duration:3000 })
-        this.set({
+        that.setData({
           classifyResult: ""
         })
       },
